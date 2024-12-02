@@ -1,0 +1,57 @@
+.navbar {
+    position: relative;
+    z-index: 10;
+    background: rgba(10, 9, 9, 0.5);
+    box-shadow: 0 8px 32px 0 rgba(51, 175, 233, 0.37);
+    backdrop-filter: blur(7.5px);
+    -webkit-backdrop-filter: blur(3.5px);
+    border-radius: 5px;
+    border: 1px solid rgba(70, 136, 236, 0.18);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-logo {
+    border-radius: 10%;
+    height: 2.7rem;
+    transition: transform 0.3s ease;
+    z-index: 1;
+    position: relative;
+}
+
+.logo-button {
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.logo-button:hover .navbar-logo {
+    transform: scale(1.7);
+}
+
+.navbar-contact {
+    background-color: transparent;
+    color: #62c1e0;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border: 2px solid #62c1e0;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar-contact:hover {
+    background-color: #4b9db7;
+    color: #000;
+    box-shadow: 0 0 10px #55c2e4;
+}
+#tsparticles {
+    z-index: 0;
+}
